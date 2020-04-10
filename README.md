@@ -4,13 +4,15 @@
 
 ## how to use
 
->import ChainedHashTable
+''' python3
+import ChainedHashTable
 
->def myfunction(mychar):
->    return ord(mychar)
+def myfunction(mychar):
+    return ord(mychar)
 
->mytable = ChainedHashTable(myfunction)
+mytable = ChainedHashTable(myfunction)
 
->mytable.Insert('h')
+mytable.Insert('h')
 
->print(mytable.getTable())
+print(mytable.getTable())
+'''
