@@ -5,7 +5,7 @@ def f(a):
     return ord(a)
 
 
-#how to use
+how to use
 b = ChainedHashTable(f)
 b.Insert('h')
 print(b.getTable())
