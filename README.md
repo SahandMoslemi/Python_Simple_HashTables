@@ -1,11 +1,16 @@
 # Python_Simple_HashTables
-some simple hash tables :P
-
-def f(a):
-    return ord(a)
+## some simple hash tables :P
 
 
-how to use
-b = ChainedHashTable(f)
-b.Insert('h')
-print(b.getTable())
+## how to use
+
+>import ChainedHashTable
+
+>def myfunction(mychar):
+>    return ord(mychar)
+
+>mytable = ChainedHashTable(myfunction)
+
+>mytable.Insert('h')
+
+>print(mytable.getTable())
