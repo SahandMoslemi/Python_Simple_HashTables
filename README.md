@@ -4,7 +4,7 @@
 
 ## how to use
 
-''' python3
+``` python3
 import ChainedHashTable
 
 def myfunction(mychar):
@@ -15,4 +15,4 @@ mytable = ChainedHashTable(myfunction)
 mytable.Insert('h')
 
 print(mytable.getTable())
-'''
+```
