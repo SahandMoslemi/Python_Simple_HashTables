@@ -2,7 +2,7 @@
 ## some simple hash tables :P
 
 
-## how to use
+#### how to use
 
 ``` python3
 import ChainedHashTable
