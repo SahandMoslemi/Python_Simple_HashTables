@@ -40,8 +40,6 @@ class ChainedHashTable(simpleHT.SimpleHashTable):
         except:
             pass
 
-def f(a):
-    return ord(a)
 
 
 
